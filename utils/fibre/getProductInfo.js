@@ -19,6 +19,7 @@ const scrapeData = (url) => new Promise(async (resolve, reject) => {
         await browser.close();
 
         const $ = cheerio.load(html);
+        
         const productName = $('.product__banner-title').text().trim();
         const productSku = url.split('=')[1];
         const collection = $('li.meta__item.meta__item--collection span.meta__value span').text().trim() || '';
