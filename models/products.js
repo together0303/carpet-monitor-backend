@@ -77,6 +77,9 @@ const ProductSchema = new Schema({
     rollWidth: {
         type: String
     },
+    weight: {
+        type: String
+    },
     usage: {
         type: String
     },
@@ -87,6 +90,15 @@ const ProductSchema = new Schema({
         type: String
     },
     style: {
+        type: String
+    },
+    weave: {
+        type: String
+    },
+    yarn: {
+        type: String
+    },
+    fireRating: {
         type: String
     },
     backing: {
