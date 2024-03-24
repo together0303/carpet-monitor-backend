@@ -53,16 +53,13 @@ const ProductSchema = new Schema({
     texture: {
         type: String
     },
-    style: {
-        type: String
-    },
     origin: {
         type: String
     },
     patternRepeat: {
         type: String
     },
-    hight: {
+    height: {
         type: String
     },
     width: {
